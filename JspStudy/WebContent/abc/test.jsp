@@ -18,6 +18,7 @@
 <body>
 <%
 	String str = "Git Test";
+	System.out.println("str => " + str);
 	out.println("<h1>" + "str =>" + str + "</h1>");
 %>
 <%

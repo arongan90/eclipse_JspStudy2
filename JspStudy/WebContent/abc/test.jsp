@@ -21,6 +21,7 @@
 	System.out.println("str => " + str);
 	out.println("<h1>" + "str =>" + str + "</h1>");
 %>
+<%= str %>
 <%
 	float f=(float)2.3;//자바에서 기본 소수점 자료형은 double -> float-> 강제형변환,변수명 뒤에 f를 줘야한다.
 	int i=Math.round(f);//클래스명.정적메서드명(~)=>round 반올림 메서드
